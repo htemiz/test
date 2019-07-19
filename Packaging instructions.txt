@@ -1,3 +1,8 @@
+# Packaging and distributing projects
+https://packaging.python.org/guides/distributing-packages-using-setuptools/#choosing-a-versioning-scheme
+
+https://packaging.python.org/tutorials/packaging-projects/#generating-distribution-archives
+
 for packaging
 python setup.py sdist bdist_wheel
 
@@ -5,3 +10,14 @@ python setup.py sdist bdist_wheel
 for uploading the package:
 python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
+git config --global user.name htemiz
+
+git config --global user.email htemiz@artvin.edu.tr
+
+python3 -m pip install --user --upgrade twine
+
+# upload 
+python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
+# install
+python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-pkg-your-username
