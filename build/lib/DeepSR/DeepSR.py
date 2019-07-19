@@ -5,7 +5,7 @@ An open source framework for implementation of the tasks regarding Super Resolut
 with Deep Learning architectures based on Keras framework.
 
 The main goal of this framework is to empower users/researchers to focus on their studies
-while pursuing successful Deep Learning algorithms for the task of Super Resolution,
+while pursuin g successful Deep Learning algorithms for the task of Super Resolution,
 saving them from the workloads of programming, implementing and testing.
 
 It offers several ways to use the framework, such as using the command line, using the DeepSR

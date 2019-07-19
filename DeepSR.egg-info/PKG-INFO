@@ -6,7 +6,12 @@ Home-page: https://github.com/htemiz/DeepSR
 Author: Hakan Temiz, Hasan Sakir Bilge
 Author-email: htemiz@artvin.edu.tr, bilge@gazi.edu.tr
 License: UNKNOWN
-Description: UNKNOWN
+Description: # A Python framework for the task of Super Resolution with Deep Learning Architectures
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+        
 Keywords: super resolution deep learning
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
