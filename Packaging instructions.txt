@@ -1,0 +1,7 @@
+for packaging
+python setup.py sdist bdist_wheel
+
+
+for uploading the package:
+python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
